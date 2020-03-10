@@ -1,3 +1,4 @@
+/*les grandes lignes*/
 body{
     margin: 0;
 }
@@ -6,11 +7,11 @@ p{
     font size: 20em;
 }
 
-h1
+h1>h2
 {
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Righteous', cursive;
-    font-size: 5em;
+    font-size: 2em;
 }
 
 
@@ -59,27 +60,11 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  /* Changer lescouleur au survol */
   li a:hover {
     
   }
-/*::::::::::::::::::::::::::::::::
-body{
-    margin: 0;
-}
-#logo{
-
-}
-img{
-    line-height: 0;
-    width: 100%;
-}
-#menu{
-        zoom: 1;
-        padding: 24px;
-        position: relative;
-}*/
-/*faire le mennu*/
+  /*début résumé*/
 #resume
 {
     display: flex;
@@ -97,7 +82,7 @@ img{
     flex-basis: 66%;
     order: 2;
 }
-
+/*début des compétances*/
 #competance
 {
     display: flex;
@@ -110,7 +95,9 @@ img{
 flex-basis: 33%;
 
 }
+/*fin des compétances*/
  
+/*section lunette*/
 #lunette 
 {
     display: flex;
@@ -129,8 +116,13 @@ flex-basis: 33%;
     flex-basis: 66%;
     order: 2;
 }
-
-
+/*fin lunette*/
+/*début footer*/
+#footer
+{
+    background-color: thistle;
+}
+/*fin footer*/
 
 
 
