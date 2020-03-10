@@ -1,0 +1,72 @@
+
+body{
+    margin: 0;
+}
+
+img{
+    line-height: 0;
+    width: 100%;
+}
+/*faire le mennu*/
+#resume
+{
+    display: flex;
+    align-items: center;
+    background-color:beige;
+    
+}   
+.resume-image/*image*/
+{
+    flex-basis: auto;
+    order: 1;
+}
+.resume-texte
+{
+    flex-basis: 66%;
+    order: 2;
+}
+
+#competance
+{
+    display: flex;
+    background-color:rgb(226, 172, 179);
+    padding: 2em;
+    justify-content: space-evenly;
+    
+}  
+#competance > div {
+flex-basis: 33%;
+
+}
+ 
+#lunette 
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(172, 213, 226);
+}
+
+.lunettes/*image*/
+{
+    margin-left: 50px;
+    flex-basis: auto;
+    order: 1;
+}
+.lunettes-texte
+{
+    flex-basis: 66%;
+    order: 2;
+}
+
+
+
+
+
+.mobile
+{
+display: grid
+}
+
+
+@media screen and(min-width:940px){
+}
