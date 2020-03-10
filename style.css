@@ -2,9 +2,10 @@
 body{
     margin: 0;
 }
-p{
+p
+{
     font-family: 'Source Sans Pro', sans-serif;
-    font size: 20em;
+    font-size: 1em;
 }
 
 h1>h2
@@ -32,8 +33,11 @@ header nav {
     margin: auto;
 }
  
-.menu {
-    font-size: 1.5em;
+#menu
+ {
+    font-size: 1em;
+    font-family: 'Source Sans Pro',bold;
+    
 }
  
 header nav ul li{
@@ -45,8 +49,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
-  }
+    background-color: #ffffff; }
   
   li {
     float: right;
@@ -60,9 +63,9 @@ ul {
     text-decoration: none;
   }
   
-  /* Changer lescouleur au survol */
+  /* Changer les couleur au survol */
   li a:hover {
-    
+
   }
   /*début résumé*/
 #resume
@@ -107,9 +110,11 @@ flex-basis: 33%;
 
 .lunettes/*image*/
 {
-    margin-left: 50px;
-    flex-basis: auto;
-    order: 1;
+    margin-left: 100px;
+    flex-basis: auto;*/
+    order: 1;{ 
+    float:right;
+        } 
 }
 .lunettes-texte
 {
@@ -130,7 +135,23 @@ flex-basis: 33%;
 {
 display: grid
 }
+/*TAILLE DES ECRANT*/
 
-
-@media screen and(min-width:940px){
+ @media screen and (min-width:414px) {
+  body {
+    background-color: lightgreen;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: lavender;
+  }
+}
+  
+  @media screen and (min-width: 1920px) 
+  {
+    body {
+      background-color: BLACK;
+    }
+  }
