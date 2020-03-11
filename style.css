@@ -20,6 +20,7 @@ img{
     line-height: 0;
     width: 100%;
 }
+
 #logo {
     width: 20em;
 }
@@ -86,20 +87,14 @@ ul {
     order: 2;
 }
 /*début des compétances*/
-#competance
-{
-    display: flex;
-    background-color:rgb(226, 172, 179);
-    padding: 2em;
-    justify-content: space-evenly;
-    
-}  
-#competance > div {
-flex-basis: 33%;
-
-}
-/*fin des compétances*/
  
+#conteneur
+{
+    padding: 1em;
+    justify-content: space-around;
+    display: flex;
+    
+}
 /*section lunette*/
 #lunette 
 {
@@ -129,18 +124,17 @@ flex-basis: 33%;
 }
 /*fin footer*/
 
-
-
-.mobile
-{
-display: grid
-}
 /*TAILLE DES ECRANT*/
 
  @media screen and (min-width:414px) {
   body {
     background-color: lightgreen;
+    
   }
+
+}
+@media screen and (min-width:940px){
+
 }
 
 @media screen and (min-width: 768px) {
@@ -152,6 +146,6 @@ display: grid
   @media screen and (min-width: 1920px) 
   {
     body {
-      background-color: BLACK;
+      background-color: white;
     }
   }
